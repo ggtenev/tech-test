@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <!-- <script src="https://use.fontawesome.com/25df1e1292.js"></script> -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <title>Document</title>
@@ -16,6 +17,13 @@
     <div class="header">
       <div class="navigation">
         <img src="Images//logo.svg" alt="logo" class="logo">
+        <!-- <i class=" close-bars fas fa-times" style="color: #fff;"></i> -->
+        <div class="burger-btn">
+          <!-- <label for="toggle">&#9776;</label>
+          <input type="checkbox" id="toggle"> -->
+          <!-- <i class=" open fas fa-bars" style="color: #fff; font-size: 20px;"><p class="fa-bars">Bars</p></i> -->
+          <p class="fa-bars open">Bars</p>
+        </div>
         <ul class="nav-buttons">
           <li>
             <div class="dropdown">
@@ -36,10 +44,44 @@
           <li><a href="#">Expertise</a></li>
           <li><a href="#">Price</a></li>
           <li id="contact"><a href="#" class="">Contact</a></li>
-          <i class=" close-bars fas fa-times" style="color: #fff;"></i>
-          <i class=" open fas fa-bars" style="color: #fff;"></i>
         </ul>
       </div>
+      <div class="menu-overlay">
+        <div class="logo-times">
+          <img src="Images//logo.svg" alt="logo" class="logo">
+       
+          <div class="burger-btn">
+            <!-- <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle"> -->
+            <!-- <i class=" close-bars fas fa-times" style="color: #fff; font-size: 24px;"><p class="fa-times">Times</p></i> -->
+            <p class="fa-times">Times</p>
+          </div>
+        </div>
+        
+        <ul>
+          <li class="about-dropdown">
+            <div id="dropbtn-mobile">
+              <a href="#" class="mobile-nav-a" id="mobile-about-btn">About</a>
+              <i class="fas fa-caret-down" style="color: #fff;"></i>
+            </div>
+            <div class="content-about">
+              <a href="#">Our Team </a>
+              <a href="#">Work / Ethos</a>
+              <a href="#">Our History</a>
+              <a href="#">Company</a>
+            </div>
+          </li>
+          <li class="mobile-nav-a"><a href="#">Our work</a></li>
+          <li class="mobile-nav-a"><a href="#">Expertise</a></li>
+          <li class="mobile-nav-a"><a href="#">Price</a></li>
+          <div class="mobile-nav-contact">
+            <li id="contact"><a href="#" >Contact</a></li>
+          </div>
+          
+        </ul>
+      </div>
+     
+      
       <div class="header-content">
         <h1 class="banner-title"> Lorem ipsum title sit amet consectetur adipisicing elit.</h1>
         <p class="banner-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, autem vitae, voluptas
@@ -175,9 +217,9 @@
         <!-- <span class="glyphicon" aria-hidden="true"></span> -->
         <!-- <span class="sr-only">Next</span> -->
       </a>
-    </div>
-    <div class="latest-news">
-      <h4>Latest News</h4>
+    </div> 
+    <div class="latest-news">   
+      <h4>Latest News</h4> 
       <div class="news ">
         <div class="new ">
           <img src="Images/news1.png" alt="news-1">
